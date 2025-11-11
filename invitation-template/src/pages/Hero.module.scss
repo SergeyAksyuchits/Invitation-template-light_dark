@@ -1,0 +1,114 @@
+.hero{
+    &-wrapper-light{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: white;
+        padding: 136px 117px 514px;
+        color: rgba(0, 0, 0, 1);
+
+
+        &-button-style{
+            margin-bottom: 200px;
+            background-color: rgba(255, 107, 0, 1);
+
+        }
+
+        button{
+            padding: 16px 114px;
+            font-weight: 500;
+            font-size: 30px;
+            color: rgba(255, 255, 255, 1);
+            border-radius: 47px;
+            border: none;
+            
+        }
+
+        &-description{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: flex-start;
+            margin-bottom: 73px;
+
+            h1{
+                font-weight: 600;
+                font-size: 80px;
+                max-width: 300px;
+            }
+            p{
+                font-weight: 300;
+                font-size: 30px;
+                max-width: 800px;
+                margin-bottom: 65px;
+            }
+            &-data{
+                display: flex;
+                gap: 21px;
+                align-items: center;
+                margin-bottom: 74px;
+
+                h2{
+                    font-weight: 400;
+                    font-size: 24px;
+                }
+            }
+            
+           
+            button{
+                margin-bottom: 0px;
+            }
+        }
+
+        &-avatar{
+            display: flex;
+            align-items: center;
+            gap: 52px;
+
+            &-img{
+                img{
+                    border-radius: 50%;
+                }
+            }
+
+            &-information{
+                display: flex;
+                flex-direction: column;
+                gap: 3px;
+                h3{
+                    font-weight: 600;
+                    font-size: 30px;
+                }
+                p{
+                    font-weight: 200;
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+
+    &-wrapper-dark{
+        display: flex;
+        flex-direction: column;
+        padding: 136px 117px 514px;
+        align-items: flex-start;
+        background-color: #00111c;
+        color: rgba(255, 255, 255, 1);
+
+        &-button-style{
+            margin-bottom: 200px;
+            background-color:rgba(29, 164, 251, 1);
+
+        }
+
+        button{
+            padding: 16px 114px;
+            font-weight: 500;
+            font-size: 30px;
+            color: rgba(255, 255, 255, 1);
+            border-radius: 47px;
+            border: none;
+            
+        }
+    }
+}
